@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body class="not-responsive-static-layout">
+  <body class="not_responsive_static_layout">
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
@@ -34,33 +34,33 @@
       <address class="address header__address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p>наб. Принсенграхт 263-265,<br />Амстердам</p>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
     </header>
     <main>
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="span1 aligned-text"
+          <span class="aligned-text_left"
             ><span class="no-letter-spacing">О</span
             ><span class="letter-spacing-extended">НО</span></span
           >
-          <span class="span2 aligned-text_center"
+          <span class="aligned-text_center"
             ><span class="no-letter-spacing">ТЕ</span
             ><span class="letter-spacing-extended">БЕ</span></span
           >
-          <span class="span3 aligned-text_end"
+          <span class="aligned-text_end"
             ><span class="letter-spacing-extended">Н</span
-            ><span class="no-letter-spacing">АДО</span></span
-          >
+            ><span class="no-letter-spacing">АД</span>  
+            <span class="letter_o" >О</span>
         </h1>
 
         <div class="cover__description">
-          <div class="cover__description-text">
+          <span class="cover__description-text">
             Аукцион вещей, в которые никто не верил
-          </div>
-          <div class="bet-button">
-            <a class="bet-button-text" href="#">Сделать ставку</a>
+          </span>
+          <div class="button">
+            <a class="button-text" href="#">Сделать ставку</a>
           </div>
         </div>
       </section>
@@ -117,7 +117,7 @@
             </div>
           </li>
         </ul>
-        <p class="lots__look-more-link"><a href="#">посмотреть больше</a></p>
+        <a class="lots__look-more-link" href="#">посмотреть больше</a>
       </section>
 
       <section class="about">
@@ -125,7 +125,7 @@
           <div class="about__logo-image">
             <img
               class="about__logo"
-              src="../ono-tebe-nado/images/logo-white.svg"
+              src="./images/logo-white.svg"
               alt="белый логотип"
             />
           </div>
@@ -158,7 +158,7 @@
       <address class="address footer__address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p>наб. Принсенграхт 263-265,<br />Амстердам</p>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__links-list">
@@ -173,23 +173,23 @@
           </li>
         </ul>
       </nav>
-      <div class="footer--social-list">
-        <img
-          class="footer__social-link"
-          src="./images/yt.svg"
-          alt="ссылка на youtube"
-        />
-        <img
-          class="footer__social-link"
-          src="./images/vk.svg"
-          alt="ссылка на VK"
-        />
-        <img
-          class="footer__social-link"
-          src="./images/pinterest.svg"
-          alt="ссылка на pinterest"
-        />
-      </div>
+      <ul class="footer__social-list"> 
+        <li class="footer__social-list-item"> 
+           <a class="footer__social-link" href="#0"> 
+              <img class="footer__social-icon" src="./images/yt.svg" alt="Иконка YouTube"/> 
+           </a> 
+        </li> 
+        <li class="footer__social-list-items"> 
+           <a class="footer__social-link" href="#0"> 
+              <img class="footer__social-icon" src="./images/vk.svg" alt="Иконка VK"/> 
+           </a> 
+        </li> 
+        <li class="footer__social-list-item"> 
+           <a class="footer__social-link" href="#0"> 
+              <img class="footer__social-icon" src="./images/pinterest.svg" alt="Иконка Pinterest"/> 
+           </a> 
+        </li> 
+     </ul>
     </footer>
   </body>
 </html>
